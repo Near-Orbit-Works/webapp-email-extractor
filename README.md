@@ -54,6 +54,12 @@ The tool generates:
 
 Each output column contains a maximum of 490 email addresses for Outlook-friendly sending.
 
+## Credits
+Developed by Dr. Lori Ramey on behalf of the MSCIN instructor team to assist with outreach and event announcements,
+(With deep respect for everyone who has ever manually copied email addresses into Outlook and questioned their life choices).
+May 2026
+BSD 3-clause license
+
 ## Local Development
 Clone repo:
 
@@ -61,8 +67,4 @@ Clone repo:
 git clone [your repo url]
 '''
 
-## Credits
-Developed by Dr. Lori Ramey on behalf of the MSCIN instructor team to assist with outreach and event announcements,
-(With deep respect for everyone who has ever manually copied email addresses into Outlook and questioned their life choices).
-May 2026
-BSD 3-clause license
+
