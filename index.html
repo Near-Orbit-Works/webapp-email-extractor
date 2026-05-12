@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Night Owl Cohort Emailer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <!-- Header -->
+        <header class="header-row">
+            <img src="assets/owl-icon.png" alt="Night Owl Logo" class="owl-logo">
+
+        <div class="header-text">
+            <h1>Night Owl Cohort Emailer</h1>
+            <p class="subtitle">CSV Email Extraction & Merge Tool</p>
+        </div>
+        </header>
+
+        <!-- Instructions -->
+        <section class="instructions">
+            <p>
+                Upload up to 5 Salesforce-exported CSV files.
+                Your email column must contain the word
+                <strong>"email."</strong>
+            </p>
+        </section>
+
+        <!-- Upload Section -->
+        <section class="upload-section">
+            <h2>Upload Files</h2>
+
+            <div id="upload-slots">
+
+                <div class="upload-row">
+                    <input type="file" id="file1" accept=".csv">
+                    <span class="filename">No file selected</span>
+                </div>
+
+                <div class="upload-row">
+                    <input type="file" id="file2" accept=".csv">
+                    <span class="filename">No file selected</span>
+                </div>
+
+                <div class="upload-row">
+                    <input type="file" id="file3" accept=".csv">
+                    <span class="filename">No file selected</span>
+                </div>
+
+                <div class="upload-row">
+                    <input type="file" id="file4" accept=".csv">
+                    <span class="filename">No file selected</span>
+                </div>
+
+                <div class="upload-row">
+                    <input type="file" id="file5" accept=".csv">
+                    <span class="filename">No file selected</span>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- Action Buttons -->
+        <section class="actions">
+            <button id="mergeBtn">Merge Emails</button>
+            <button id="resetBtn">Reset Form</button>
+        </section>
+
+        <!-- Status Area -->
+        <section class="status-section">
+            <div id="statusMessage">
+                Ready to process files.
+            </div>
+        </section>
+
+        <!-- Hidden download fallback -->
+        <section class="download-section">
+            <button id="downloadBtn" hidden>
+                Download File
+            </button>
+        </section>
+
+        <!-- Footer -->
+        <footer>
+            <p>Built by Dr. Lori Ramey, May 2026, for the MSCIN Team</p>
+        </footer>
+
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/papaparse@5.4.1/papaparse.min.js"></script>
+    <script src="app.js"></script>
+</body>
+</html>
