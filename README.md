@@ -59,6 +59,7 @@ Clone repo:
 
 ```bash
 git clone [your repo url]
+'''
 
 ## Credits
 Developed by Dr. Lori Ramey on behalf of the MSCIN instructor team to assist with outreach and event announcements,
