@@ -42,7 +42,7 @@ fileInputs.forEach((input, index) => {
 
 
 // -----------------------------
-// Merge button
+// Merge button handler
 // -----------------------------
 mergeBtn.addEventListener("click", async function () {
     const uploadedFiles = [...fileInputs]
@@ -167,7 +167,7 @@ function extractEmailsFromFile(file) {
 }
 
 // -----------------------------
-// Generate batch CSV content
+// Generate batches of 490 emails and format as CSV string
 // -----------------------------
 function generateBatchCSV(emails, batchSize) {
     const numBatches = Math.ceil(emails.length / batchSize);
