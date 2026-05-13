@@ -44,17 +44,41 @@ body {
 }
 
 .upload-row {
-    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 8px;
+}
+
+.hidden-file-input {
+    display: none;
+}
+
+.file-label {
+    display: inline-block;
+    background-color: #f0f0f0;
+    padding: 6px 12px;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    min-width: 90px;
+    text-align: center;
+}
+
+.file-label:hover {
+    background-color: #e0e0e0;
 }
 
 .filename {
-    margin-left: 10px;
-    color: gray;
-    font-style: italic;
+    margin-left: 15px;
+    color: #444;
+    font-style: normal;
+    font-size: 14px;
 }
 
 .actions {
-    margin-top: 25px;
+    margin-top: 20px;
 }
 
 button {
@@ -76,6 +100,10 @@ button {
 
 .status-section {
     margin-top: 30px;
+}
+
+.download-section {
+    margin-top: 10px;
 }
 
 #statusMessage {

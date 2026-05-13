@@ -75,8 +75,8 @@ mergeBtn.addEventListener("click", async function () {
 
         updateStatus(
             `✅ Email merge complete.\n\n` +
-            `${cleanedEmails.length} unique email addresses extracted\n` +
-            `with ${numBatches} send-ready batches created`,
+            `${cleanedEmails.length} unique emails extracted\n` +
+            `into ${numBatches} batches`,
             "success"
         );
 
